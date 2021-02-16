@@ -1,0 +1,71 @@
+.myWholeshoppingcard {
+    width: 80%;
+    height: 60%;
+    margin-top: 60px;
+    margin-left: 125px;
+    background-color:#80ced6 ;
+    padding:15px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 5px;
+}
+.final_price {
+    font-weight: bold;
+}
+.my_first_article {
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.my_first_items{
+    width: 200px ;
+    display: flex;
+    justify-content: space-between;
+}
+.spans-1 {
+    display: block;
+}
+.btn-1 {
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*=============================================================================*/
+/*==========================this is the second article=========================*/
+.my_second_article {
+    margin-top: 30px;
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+.my_second_items {
+    width: 200px ;
+    display: flex;
+    justify-content: space-between; 
+}
+.btn-2 {
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*============================================================================*/
+/*==========================this is the third article=========================*/
+.my_third_article {
+    margin-top: 30px;
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+.my_third_items {
+    width: 200px ;
+    display: flex;
+    justify-content: space-between; 
+}
+.btn-3 {
+    width: 180px;
+    display: flex;
+    justify-content: space-between;
+}

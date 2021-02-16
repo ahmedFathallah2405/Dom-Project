@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DOM_Project</title>
+    <link rel="stylesheet" href="./css/Dom_Style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+<body>
+<section class="myWholeshoppingcard">
+   <div class="shopping_bag_title">
+     <span class="final_price">The Total Price in $: <span id="total"> 0 </span> </span>
+   </div>
+
+   <div class="my_first_article" id="article1">
+        <div class="my_first_items">
+            <i class="fas fa-trash-alt" onclick="delete1()"></i>
+            <i class="fas fa-heart" id="like1" onclick="ilike1()"></i>
+        </div> 
+
+        <div class="images1">
+            <img src="./images/blacksweatshirt.jpg" alt="blacksweatshirt"style="width:128px;height:128px;" >
+        </div>
+
+        <div class="spans-1">
+            <span> <strong>Sweatshirt </strong></span></br>
+            <span> black </span>
+        </div>  
+        
+        <div class="btn-1">
+            <span class="btn"  onclick="inc1()">+</span>
+            <span class="btn" id="ar1">0</span>
+            <span class="btn" onclick="dec1()">-<span>
+        </div> 
+
+
+        <div class="result-1">
+            <span class="value-1" id="ar1p">0 </span>
+            <span>$</span>
+        </div>
+    </div>
+
+    <div class="my_second_article" id="article2">
+        <div class="my_second_items">
+            <i class="fas fa-trash-alt" onclick="delete2()"></i>
+            <i class="fas fa-heart" id="like2" onclick="ilike2()"></i>
+        </div> 
+
+        <div class="images2">
+            <img src="./images/greysweatshirt.jpg" alt="greysweatshirt" style="width:128px;height:128px;">
+        </div>
+
+        <div class="spans-2">
+            <span> <strong> Sweatshirt </strong></span></br>
+            <span> grey </span>
+        </div>  
+     
+        <div class="btn-2">
+           <span class="btn" onclick="inc2()">+</span>
+            <span class="btn" id="ar2">0</span>
+            <span class="btn" onclick="dec2()">-</span>
+        </div> 
+        <div class="result-2">
+            <span class="value-2" id="ar2p">0 </span>
+            <span>$</span>
+        </div>
+    </div>
+
+    <div class="my_third_article" id="article3">
+        <div class="my_third_items">
+            <i class="fas fa-trash-alt" onclick="delete3()" ></i>
+            <i class="fas fa-heart" id="like3" onclick="ilike3()"></i>
+        </div> 
+
+        <div class="images3">
+            <img src="./images/whitesweatshirt.jpg" alt="whitesweatshirt" style="width:128px;height:128px;">
+        </div >
+
+        <div class="spans-3">
+            <span> <strong> Sweatshirt </strong></span></br>
+            <span> white </span>
+        </div>
+ 
+        <div class="btn-3">
+            <span class="btn" onclick="inc3()">+</span>
+            <span class="btn" id="ar3">0</span>
+            <span class="btn" onclick="dec3()">-</span>
+        </div> 
+
+        <div class="result-3">
+            <span class="value-3" id="ar3p">0</span>
+            <span>$</span>
+        </div>
+    </div>
+
+</section>
+<script src="./myscript.js"></script>
+</body>
+</html>
